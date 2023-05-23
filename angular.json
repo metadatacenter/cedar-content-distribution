@@ -1,0 +1,50 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "projects": {
+    "cedar-component-distribution": {
+      "projectType": "application",
+      "root": "",
+      "sourceRoot": "src/..",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist/cedar-component-distribution-src",
+            "index": "index.html",
+            "main": "src/main.ts",
+            "tsConfig": "tsconfig.app.json",
+            "scripts": [],
+            "assets": [
+              "src/../cedar-embeddable-editor",
+              "src/../cedar-embeddable-editor-sample-templates",
+              "src/../cedar-form"
+            ]
+          },
+          "configurations": {
+            "development": {
+              "buildOptimizer": false,
+              "optimization": false,
+              "vendorChunk": false,
+              "extractLicenses": false,
+              "sourceMap": false,
+              "namedChunks": false
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "configurations": {
+            "development": {
+              "browserTarget": "cedar-component-distribution:build:development",
+              "port": 4240,
+              "disableHostCheck": true
+            }
+          },
+          "defaultConfiguration": "development"
+        }
+      }
+    }
+  }
+}
