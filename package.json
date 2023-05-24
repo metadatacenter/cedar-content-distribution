@@ -1,7 +1,13 @@
 {
   "name": "cedar-component-distribution",
-  "version": "2.6.30",
+  "version": "2.6.31",
   "publishConfig": {
     "registry": "https://nexus.bmir.stanford.edu/repository/npm-cedar/"
+  },
+  "dependencies": {
+    "@angular/core": "^15.2.4"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^15.2.4"
   }
 }
