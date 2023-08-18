@@ -46,5 +46,9 @@
   "45": "Template 45 - CEDAR-NCBI Human Tissue",
   "46": "Template 46 - Nested Elements Template",
   "47": "Template 47 - Workflow",
-  "48": "Template 48 - DataCite Metadata Form v4.4"
+  "48": "Template 48 - DataCite Metadata Form v4.4",
+  "49": "Template 49 - Element 0-N, Instance with 1 value",
+  "50": "Template 50 - Element 0-N, Instance with 2 values",
+  "51": "Template 51 - Element 1-N, Instance with 1 value",
+  "52": "Template 52 - Element 1-N, Instance with 2 values"
 }
