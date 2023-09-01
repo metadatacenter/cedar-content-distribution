@@ -36,25 +36,22 @@
     "skos:notation": {
       "@type": "xsd:string"
     },
-    "Text Field": "https://schema.metadatacenter.org/properties/219434c5-5ebc-4701-b385-8ec50cc74a55"
+    "Link": "https://schema.metadatacenter.orgx/properties/63c4dac0-9f1b-44a1-8c8c-b954cbcde57c"
   },
-  "Text Field": [
+  "Link": [
     {
-      "@value": "Text value 1"
+      "@id": "https://metadatacenter.org"
     },
     {
-      "@value": "Text value 2"
-    },
-    {
-      "@value": "Text value 3"
+      "@id": "https://bioportal.bioontology.org/"
     }
   ],
-  "schema:isBasedOn": "https://repo.metadatacenter.org/templates/b1f2d704-7782-4717-9197-af8ecb8c7295",
-  "schema:name": "22 - multiple min none metadata",
+  "schema:isBasedOn": "https://repo.metadatacenter.orgx/templates/95c3b74d-aab4-4867-9c02-84340039e1c2",
+  "schema:name": "Multi-link metadata",
   "schema:description": "",
-  "pav:createdOn": "2020-08-03T16:32:47-07:00",
-  "pav:createdBy": "https://metadatacenter.org/users/2fa8910d-96e7-4e2f-ae60-4dfa8ec9877d",
-  "pav:lastUpdatedOn": "2020-08-03T16:32:47-07:00",
-  "oslc:modifiedBy": "https://metadatacenter.org/users/2fa8910d-96e7-4e2f-ae60-4dfa8ec9877d",
-  "@id": "https://repo.metadatacenter.org/template-instances/c84ae283-73b3-46b6-ae02-3ccd12ed80b6"
+  "pav:createdOn": "2023-08-31T16:59:05-07:00",
+  "pav:createdBy": "https://metadatacenter.org/users/68d898fd-2b81-492c-b68c-a80c8283fd8a",
+  "pav:lastUpdatedOn": "2023-08-31T16:59:05-07:00",
+  "oslc:modifiedBy": "https://metadatacenter.org/users/68d898fd-2b81-492c-b68c-a80c8283fd8a",
+  "@id": "https://repo.metadatacenter.orgx/template-instances/24e9d7b9-b782-4a29-aa15-ef88b9b164d7"
 }

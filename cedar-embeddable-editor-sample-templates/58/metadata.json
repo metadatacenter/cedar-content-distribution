@@ -36,25 +36,22 @@
     "skos:notation": {
       "@type": "xsd:string"
     },
-    "Text Field": "https://schema.metadatacenter.org/properties/219434c5-5ebc-4701-b385-8ec50cc74a55"
+    "Favorite Bands": "https://schema.metadatacenter.orgx/properties/95dd9c26-a0cf-451a-a3bb-6464d0050669"
   },
-  "Text Field": [
+  "Favorite Bands": [
     {
-      "@value": "Text value 1"
+      "@value": "Taylor Swift"
     },
     {
-      "@value": "Text value 2"
-    },
-    {
-      "@value": "Text value 3"
+      "@value": "AC/DC"
     }
   ],
-  "schema:isBasedOn": "https://repo.metadatacenter.org/templates/b1f2d704-7782-4717-9197-af8ecb8c7295",
-  "schema:name": "22 - multiple min none metadata",
+  "schema:isBasedOn": "https://repo.metadatacenter.orgx/templates/3b14c261-d8f6-48dc-a162-718f9acae800",
+  "schema:name": "Multiple select metadata",
   "schema:description": "",
-  "pav:createdOn": "2020-08-03T16:32:47-07:00",
-  "pav:createdBy": "https://metadatacenter.org/users/2fa8910d-96e7-4e2f-ae60-4dfa8ec9877d",
-  "pav:lastUpdatedOn": "2020-08-03T16:32:47-07:00",
-  "oslc:modifiedBy": "https://metadatacenter.org/users/2fa8910d-96e7-4e2f-ae60-4dfa8ec9877d",
-  "@id": "https://repo.metadatacenter.org/template-instances/c84ae283-73b3-46b6-ae02-3ccd12ed80b6"
+  "pav:createdOn": "2023-08-31T10:20:33-07:00",
+  "pav:createdBy": "https://metadatacenter.org/users/68d898fd-2b81-492c-b68c-a80c8283fd8a",
+  "pav:lastUpdatedOn": "2023-08-31T10:20:33-07:00",
+  "oslc:modifiedBy": "https://metadatacenter.org/users/68d898fd-2b81-492c-b68c-a80c8283fd8a",
+  "@id": "https://repo.metadatacenter.orgx/template-instances/28f60f26-42cb-47e4-b4d2-648e771a1981"
 }
