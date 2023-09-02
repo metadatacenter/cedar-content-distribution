@@ -32,10 +32,7 @@
     },
     {
       "Controlled Field 1 in Element": [
-        {
-          "@id": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C111020",
-          "rdfs:label": "Uveal Class 1 Melanoma"
-        }
+        {}
       ],
       "Controlled Field 2 in Element": {}
     },

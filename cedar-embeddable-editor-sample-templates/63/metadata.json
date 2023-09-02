@@ -36,19 +36,21 @@
     "skos:notation": {
       "@type": "xsd:string"
     },
-    "Data acquisition technique": "https://schema.metadatacenter.orgx/properties/229b010e-5981-4d37-bff4-d615f2306dc7"
+    "Controlled Element": "https://schema.metadatacenter.org/properties/3b5d0ad4-f279-489e-96e8-0dd523c662b0"
   },
-  "Data acquisition technique": [
-    {},
+  "Controlled Element": [
     {
-      "@id": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C116664",
-      "rdfs:label": "Electrocorticography"
-    },
-    {},
-    {
-      "@id": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C121377",
-      "rdfs:label": "Susceptibility Weighted Imaging"
-    },
-    {}
+      "@context": {
+        "Controlled Field 1 in Element": "https://schema.metadatacenter.org/properties/0626ae90-2e1f-47b5-b638-6fa51975bfca"
+      },
+      "Controlled Field 1 in Element": [
+        {
+          "@id": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C131506",
+          "rdfs:label": "Childhood Melanoma"
+        },
+        {},
+        {}
+      ]
+    }
   ]
 }
