@@ -40,10 +40,10 @@
   },
   "Element of Element": {
     "@context": {
-      "Texf Field 1": "https://schema.metadatacenter.org/properties/124f71ba-9032-4101-959d-8b38136387ff",
+      "Text Field 1": "https://schema.metadatacenter.org/properties/124f71ba-9032-4101-959d-8b38136387ff",
       "Single Text Element": "https://schema.metadatacenter.org/properties/379c83c0-819d-4f03-8720-8f0fc9d1d8a8"
     },
-    "Texf Field 1": {
+    "Text Field 1": {
       "@value": "Value 1"
     },
     "Single Text Element": {

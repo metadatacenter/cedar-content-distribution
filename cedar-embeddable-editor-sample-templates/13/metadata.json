@@ -38,36 +38,16 @@
     },
     "Attribute Value Element Single": "https://schema.metadatacenter.org/properties/4d88ab5d-6a6a-4f23-b23b-6423ca45c926",
     "Attribute Value Element Multiple": "https://schema.metadatacenter.org/properties/990f2014-8fc4-4fad-b93c-06b9f803ad86",
-    "Attribute Value Field1": "https://schema.metadatacenter.org/properties/e9aa508f-4f8a-411c-ab66-f8efc2ca9930",
-    "Attribute Value Field2": "https://schema.metadatacenter.org/properties/e0b1add0-0e73-4324-828c-abfd76d7148d",
-    "Attribute Value Field3": "https://schema.metadatacenter.org/properties/0213b9ea-9730-4b8a-8e85-34339420229c"
+    "Attribute Value Field Root 3": "https://schema.metadatacenter.org/properties/a1b2e9a6-04c7-4894-b4ea-4fb6591895db",
+    "Attribute Value Field Root 2": "https://schema.metadatacenter.org/properties/9f9cc15a-98d5-4fca-a4cd-2190d9373644",
+    "Attribute Value Field Root 1": "https://schema.metadatacenter.org/properties/fd35c168-c46b-4d93-be4b-21803a61922d"
   },
   "Attribute Value Field Root": [
-    "Attribute Value Field1",
-    "Attribute Value Field2",
-    "Attribute Value Field3"
+    "Attribute Value Field Root 1",
+    "Attribute Value Field Root 2",
+    "Attribute Value Field Root 3"
   ],
   "Attribute Value Element Multiple": [
-    {
-      "@context": {
-        "Checkbox Field in Attribute Value": "https://schema.metadatacenter.org/properties/69602265-3097-49ae-9893-fc921a32553d",
-        "Attribute Value Field1": "https://schema.metadatacenter.org/properties/3eca252e-7c95-4ce4-a2b8-67bd0a6df860"
-      },
-      "Attribute Value Field From Multiple": [
-        "Attribute Value Field1"
-      ],
-      "Checkbox Field in Attribute Value": [
-        {
-          "@value": "Option 2"
-        },
-        {
-          "@value": "Option 4"
-        }
-      ],
-      "Attribute Value Field1": {
-        "@value": null
-      }
-    },
     {
       "@context": {
         "Checkbox Field in Attribute Value": "https://schema.metadatacenter.org/properties/69602265-3097-49ae-9893-fc921a32553d"
@@ -75,113 +55,46 @@
       "Attribute Value Field From Multiple": [],
       "Checkbox Field in Attribute Value": [
         {
-          "@value": "Option 1"
-        },
-        {
           "@value": "Option 2"
         },
         {
-          "@value": "Option 3"
-        },
-        {
           "@value": "Option 4"
-        },
-        {
-          "@value": "Option 5"
         }
       ]
-    },
-    {
-      "@context": {
-        "Checkbox Field in Attribute Value": "https://schema.metadatacenter.org/properties/69602265-3097-49ae-9893-fc921a32553d",
-        "Attribute Value Field1": "https://schema.metadatacenter.org/properties/38313385-e8cf-4a2e-a191-32835ceff07c",
-        "Attribute Value Field2": "https://schema.metadatacenter.org/properties/c172cf83-48d7-4e25-9217-8f82b90d67d3",
-        "Attribute Value Field3": "https://schema.metadatacenter.org/properties/6b8c4161-222c-41d6-9985-7dc53cd4a415",
-        "Attribute Value Field4": "https://schema.metadatacenter.org/properties/3d7334f7-c841-45e5-a67c-25af8aad8cd3",
-        "Attribute Value Field5": "https://schema.metadatacenter.org/properties/982e35d4-92ac-4f7e-be6c-075aaa3a85cd",
-        "Attribute Value Field6": "https://schema.metadatacenter.org/properties/e7552691-30be-4198-a3b7-15fb2f6e6adf"
-      },
-      "Attribute Value Field From Multiple": [
-        "Attribute Value Field1",
-        "Attribute Value Field2",
-        "Attribute Value Field3",
-        "Attribute Value Field4",
-        "Attribute Value Field5",
-        "Attribute Value Field6"
-      ],
-      "Checkbox Field in Attribute Value": [
-        {
-          "@value": "Option 2"
-        },
-        {
-          "@value": "Option 3"
-        },
-        {
-          "@value": "Option 4"
-        }
-      ],
-      "Attribute Value Field1": {
-        "@value": null
-      },
-      "Attribute Value Field2": {
-        "@value": null
-      },
-      "Attribute Value Field3": {
-        "@value": "ksdfsjfdkj;ljfdsldkjfls"
-      },
-      "Attribute Value Field4": {
-        "@value": null
-      },
-      "Attribute Value Field5": {
-        "@value": null
-      },
-      "Attribute Value Field6": {
-        "@value": null
-      }
     }
   ],
   "Attribute Value Element Single": {
     "@context": {
       "Text Box Multiple": "https://schema.metadatacenter.org/properties/95df14ca-9f6f-4b0b-8720-b92e94e5ea08",
-      "Attribute Value Field1": "https://schema.metadatacenter.org/properties/c5ad5269-02c6-4d7b-a803-9074a355fbce",
-      "Attribute Value Field2": "https://schema.metadatacenter.org/properties/8171379b-390b-488d-9857-ed2c041bcea9",
-      "Attribute Value Field3": "https://schema.metadatacenter.org/properties/490fe0ce-e3f0-4d1f-9c0d-16c41f77dc85",
-      "Attribute Value Field4": "https://schema.metadatacenter.org/properties/a1b85ad8-9a67-4ad3-98da-4fd56cc029a8"
+      "Attribute Value Field Single 1": "https://schema.metadatacenter.org/properties/4d7622f3-3ab4-498c-b327-d3364eddb07c",
+      "Attribute Value Field Single 2": "https://schema.metadatacenter.org/properties/bb26c067-dbda-43f1-ab40-ee1fe3b2ed13"
     },
     "Text Box Multiple": [
       {
-        "@value": null
+        "@value": "text box multiple 1"
       },
       {
-        "@value": "hjjhjhjhjhjhjj"
+        "@value": "text box multiple 2"
       }
     ],
     "Attribute Value Field From Single": [
-      "Attribute Value Field1",
-      "Attribute Value Field2",
-      "Attribute Value Field3",
-      "Attribute Value Field4"
+      "Attribute Value Field Single 1",
+      "Attribute Value Field Single 2"
     ],
-    "Attribute Value Field1": {
-      "@value": null
+    "Attribute Value Field Single 1": {
+      "@value": "value 1"
     },
-    "Attribute Value Field2": {
-      "@value": null
-    },
-    "Attribute Value Field3": {
-      "@value": null
-    },
-    "Attribute Value Field4": {
-      "@value": null
+    "Attribute Value Field Single 2": {
+      "@value": "value 2"
     }
   },
-  "Attribute Value Field1": {
-    "@value": "123123265568"
+  "Attribute Value Field Root 3": {
+    "@value": null
   },
-  "Attribute Value Field2": {
-    "@value": "24342342"
+  "Attribute Value Field Root 2": {
+    "@value": "value 2"
   },
-  "Attribute Value Field3": {
-    "@value": "456666"
+  "Attribute Value Field Root 1": {
+    "@value": "value 1"
   }
 }

@@ -39,7 +39,7 @@
     "Phone Field": "https://schema.metadatacenter.org/properties/358717f4-91aa-4aeb-829f-830ba88113bb"
   },
   "Phone Field": {
-    "@value": "phone value"
+    "@value": "650 686 8888"
   },
   "schema:isBasedOn": "https://repo.metadatacenter.org/templates/ec3f500f-ddca-4ec1-9196-29932f9304fd",
   "schema:name": "15 - phone field metadata",

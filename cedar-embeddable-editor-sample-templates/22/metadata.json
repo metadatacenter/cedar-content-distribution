@@ -38,7 +38,17 @@
     },
     "Text Field": "https://schema.metadatacenter.org/properties/219434c5-5ebc-4701-b385-8ec50cc74a55"
   },
-  "Text Field": [],
+  "Text Field": [
+    {
+      "@value": "Text value 1"
+    },
+    {
+      "@value": "Text value 2"
+    },
+    {
+      "@value": "Text value 3"
+    }
+  ],
   "schema:isBasedOn": "https://repo.metadatacenter.org/templates/b1f2d704-7782-4717-9197-af8ecb8c7295",
   "schema:name": "22 - multiple min none metadata",
   "schema:description": "",
