@@ -61,5 +61,7 @@
   "60": "Template 60 - Multi-element with Attribute-Value",
   "61": "Template 61 - Multi-link",
   "62": "Template 62 - Multi-page",
-  "63": "Template 63 - Controlled, multi, deep"
+  "63": "Template 63 - Controlled, multi, deep",
+  "64": "Template 64 - Simple text field, no instance data",
+  "65": "Template 65 - One simple option with default value"
 }
