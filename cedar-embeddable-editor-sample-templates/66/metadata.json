@@ -18,7 +18,7 @@
   "title": [],
   "publicationYear": {
     "@type": "xsd:date",
-    "@value": "2023"
+    "@value": "2023-01-01"
   },
   "publisher": {
     "@value": "CEDAR"
