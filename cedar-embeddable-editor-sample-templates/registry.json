@@ -65,7 +65,7 @@
   "64": "Template 64 - Simple text field, no instance data",
   "65": "Template 65 - One simple option with default value",
   "66": "Template 66 - DataCite V4.4 Aug23",
-  "67": "Template with link field 0-N",
-  "68": "Template with link field 1-N",
-  "69": "Template with multi link element"
+  "67": "Template 67 - With link field 0-N",
+  "68": "Template 68 - With link field 1-N",
+  "69": "Template 69 - With multi link element"
 }
