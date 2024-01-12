@@ -16,9 +16,7 @@
             "tsConfig": "tsconfig.app.json",
             "scripts": [],
             "assets": [
-              "src/../cedar-embeddable-editor",
-              "src/../cedar-embeddable-editor-sample-templates",
-              "src/../cedar-form"
+              "src/../cedar-embeddable-editor-sample-templates"
             ]
           },
           "configurations": {
