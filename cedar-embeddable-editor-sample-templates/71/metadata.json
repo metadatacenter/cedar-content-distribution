@@ -646,10 +646,10 @@
       "Data File Geopolitical Coverage": [
         {
           "@context": {
-            "Geopolitical region ": "http://purl.org/radx-terms/metadata-terms/geographicalPlaceName"
+            "Geopolitical region": "http://purl.org/radx-terms/metadata-terms/geographicalPlaceName"
           },
           "@id": "urn:uuid:e84ab7d6-9214-45f3-9a7c-b67e56a87cc5",
-          "Geopolitical region ": [
+          "Geopolitical region": [
             {
               "@value": ""
             }
