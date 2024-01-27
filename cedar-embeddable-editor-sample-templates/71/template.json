@@ -932,7 +932,8 @@
                 }
               ],
               "ontologies": [],
-              "literals": []
+              "literals": [],
+              "valueSets": []
             },
             "_ui": {
               "inputType": "textfield"
@@ -1262,7 +1263,8 @@
               }
             ],
             "ontologies": [],
-            "literals": []
+            "literals": [],
+            "valueSets": []
           },
           "_ui": {
             "inputType": "textfield"
@@ -2558,7 +2560,8 @@
                 }
               ],
               "ontologies": [],
-              "literals": []
+              "literals": [],
+              "valueSets": []
             },
             "_ui": {
               "inputType": "textfield"
@@ -5253,7 +5256,8 @@
                   "name": "MESH"
                 }
               ],
-              "literals": []
+              "literals": [],
+              "valueSets": []
             },
             "_ui": {
               "inputType": "textfield"
@@ -5591,7 +5595,8 @@
                 }
               ],
               "ontologies": [],
-              "literals": []
+              "literals": [],
+              "valueSets": []
             },
             "_ui": {
               "inputType": "textfield"
@@ -8189,7 +8194,8 @@
                 }
               ],
               "ontologies": [],
-              "literals": []
+              "literals": [],
+              "valueSets": []
             },
             "_ui": {
               "inputType": "textfield"
@@ -8384,7 +8390,8 @@
                 }
               ],
               "ontologies": [],
-              "literals": []
+              "literals": [],
+              "valueSets": []
             },
             "_ui": {
               "inputType": "textfield"
@@ -8711,7 +8718,8 @@
               "defaultValue": {
                 "termUri": "http://vocab.fairdatacollective.org/gdmt/Dataset",
                 "rdfs:label": "Dataset"
-              }
+              },
+              "valueSets": []
             },
             "_ui": {
               "inputType": "textfield",
@@ -10103,7 +10111,8 @@
                 }
               ],
               "ontologies": [],
-              "literals": []
+              "literals": [],
+              "valueSets": []
             },
             "_ui": {
               "inputType": "textfield"
@@ -10454,7 +10463,8 @@
                 }
               ],
               "ontologies": [],
-              "literals": []
+              "literals": [],
+              "valueSets": []
             },
             "_ui": {
               "inputType": "textfield"
@@ -11024,7 +11034,8 @@
               "defaultValue": {
                 "termUri": "http://vocab.fairdatacollective.org/gdmt/Person",
                 "rdfs:label": "Person"
-              }
+              },
+              "valueSets": []
             },
             "_ui": {
               "inputType": "textfield"
@@ -11126,7 +11137,8 @@
                 }
               ],
               "ontologies": [],
-              "literals": []
+              "literals": [],
+              "valueSets": []
             },
             "_ui": {
               "inputType": "textfield"
@@ -11321,7 +11333,8 @@
                 }
               ],
               "ontologies": [],
-              "literals": []
+              "literals": [],
+              "valueSets": []
             },
             "_ui": {
               "inputType": "textfield"
@@ -11761,7 +11774,8 @@
                 }
               ],
               "ontologies": [],
-              "literals": []
+              "literals": [],
+              "valueSets": []
             },
             "_ui": {
               "inputType": "textfield"
@@ -12121,7 +12135,8 @@
                 }
               ],
               "ontologies": [],
-              "literals": []
+              "literals": [],
+              "valueSets": []
             },
             "_ui": {
               "inputType": "textfield"
@@ -12316,7 +12331,8 @@
                 }
               ],
               "ontologies": [],
-              "literals": []
+              "literals": [],
+              "valueSets": []
             },
             "_ui": {
               "inputType": "textfield"
@@ -12807,7 +12823,8 @@
                 }
               ],
               "ontologies": [],
-              "literals": []
+              "literals": [],
+              "valueSets": []
             },
             "_ui": {
               "inputType": "textfield"
@@ -13188,7 +13205,8 @@
                 }
               ],
               "ontologies": [],
-              "literals": []
+              "literals": [],
+              "valueSets": []
             },
             "_ui": {
               "inputType": "textfield"
@@ -14432,7 +14450,8 @@
                 }
               ],
               "ontologies": [],
-              "literals": []
+              "literals": [],
+              "valueSets": []
             },
             "_ui": {
               "inputType": "textfield"
@@ -16100,7 +16119,8 @@
                 }
               ],
               "ontologies": [],
-              "literals": []
+              "literals": [],
+              "valueSets": []
             },
             "_ui": {
               "inputType": "textfield"
@@ -16391,7 +16411,8 @@
               "defaultValue": {
                 "termUri": "http://vocab.fairdatacollective.org/gdmt/Person",
                 "rdfs:label": "Person"
-              }
+              },
+              "valueSets": []
             },
             "_ui": {
               "inputType": "textfield"
@@ -16772,7 +16793,8 @@
                 }
               ],
               "ontologies": [],
-              "literals": []
+              "literals": [],
+              "valueSets": []
             },
             "_ui": {
               "inputType": "textfield"
@@ -16967,7 +16989,8 @@
                 }
               ],
               "ontologies": [],
-              "literals": []
+              "literals": [],
+              "valueSets": []
             },
             "_ui": {
               "inputType": "textfield"
