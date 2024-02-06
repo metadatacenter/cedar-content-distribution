@@ -80,5 +80,6 @@
   "79": "Template 79 - Mandatory template - 2024-02-06",
   "80": "Template 80 - Mandatory link - 2024-02-06",
   "81": "Template 81 - Mandatory multi field min 0 - 2024-02-06",
-  "82": "Template 82 - Mandatory multi field min 1 - 2024-02-06"
+  "82": "Template 82 - Mandatory multi field min 1 with null - 2024-02-06",
+  "83": "Template 83 - Mandatory multi field min 1 with empty string - 2024-02-06"
 }
