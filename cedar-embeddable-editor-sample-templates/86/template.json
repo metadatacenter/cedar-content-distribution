@@ -1356,7 +1356,7 @@
             "http://schema.org/"
           ]
         },
-        "xsd": {
+``        "xsd": {
           "type": "string",
           "format": "uri",
           "enum": [
