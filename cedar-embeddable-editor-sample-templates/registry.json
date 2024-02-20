@@ -82,5 +82,6 @@
   "83": "Template 83 - Mandatory multi field min 1 with empty string - 2024-02-06",
   "84": "Template 84 - Template four level deep - 2024-02-07",
   "85": "Template 85 - RADx - only Data File Titles - 2024-02-16",
-  "86": "Template 86 - RADx - only Data File Titles, 3 instances - 2024-02-16"
+  "86": "Template 86 - RADx - only Data File Titles, 3 instances - 2024-02-16",
+  "87": "Template 87 - OSF - controlled field validation - 2024-02-20"
 }
