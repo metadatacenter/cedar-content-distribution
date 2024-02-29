@@ -1,2 +1,2 @@
-# cedar-component-server
-Serve static content for CEDAR
+# cedar-content-distribution
+Serves static content for CEDAR
