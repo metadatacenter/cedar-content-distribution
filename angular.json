@@ -43,7 +43,8 @@
             "development": {
               "browserTarget": "cedar-component-distribution:build:development",
               "port": 4240,
-              "disableHostCheck": true
+              "disableHostCheck": true,
+              "host": "0.0.0.0"
             }
           },
           "defaultConfiguration": "development"
