@@ -1,5 +1,5 @@
 {
-  "name": "cedar-component-distribution",
+  "name": "cedar-content-distribution",
   "version": "2.6.58-SNAPSHOT",
   "publishConfig": {
     "registry": "https://nexus.bmir.stanford.edu/repository/npm-cedar/"
