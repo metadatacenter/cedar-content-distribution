@@ -1,0 +1,206 @@
+{
+  "@context": {
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "pav": "http://purl.org/pav/",
+    "schema": "http://schema.org/",
+    "oslc": "http://open-services.net/ns/core#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rdfs:label": {
+      "@type": "xsd:string"
+    },
+    "schema:isBasedOn": {
+      "@type": "@id"
+    },
+    "schema:name": {
+      "@type": "xsd:string"
+    },
+    "schema:description": {
+      "@type": "xsd:string"
+    },
+    "pav:derivedFrom": {
+      "@type": "@id"
+    },
+    "pav:createdOn": {
+      "@type": "xsd:dateTime"
+    },
+    "pav:createdBy": {
+      "@type": "@id"
+    },
+    "pav:lastUpdatedOn": {
+      "@type": "xsd:dateTime"
+    },
+    "oslc:modifiedBy": {
+      "@type": "@id"
+    },
+    "skos:notation": {
+      "@type": "xsd:string"
+    },
+    "fileName": "https://w3id.org/radx/radmo/fileName",
+    "fileSizeInBytes": "https://w3id.org/radx/radmo/fileSizeInBytes",
+    "sha256Digest": "https://w3id.org/radx/radmo/sha256Digest",
+    "mediaType": "https://w3id.org/radx/radmo/mediaType",
+    "titles": "https://w3id.org/radx/radmo/titles",
+    "version": "https://w3id.org/radx/radmo/version",
+    "dataDictionaryFileName": "https://w3id.org/radx/radmo/dataDictionaryFileName",
+    "isHarmonized": "https://w3id.org/radx/radmo/isHarmonized",
+    "origcopyFileName": "https://w3id.org/radx/radmo/origcopyFileName",
+    "transformcopyFileName": "https://w3id.org/radx/radmo/transformcopyFileName",
+    "publicationUrls": "https://w3id.org/radx/radmo/publicationUrls",
+    "relatedDataFiles": "https://schema.metadatacenter.org/properties/relatedDataFiles",
+    "sharedVariables": "https://schema.metadatacenter.org/properties/sharedVariables",
+    "variableNames": "https://w3id.org/radx/radmo/variableNames",
+    "dataDescription": "https://w3id.org/radx/radmo/dataDescription",
+    "dataDomain": "https://w3id.org/radx/radmo/dataDomain",
+    "dataCollectionMethod": "https://w3id.org/radx/radmo/dataCollectionMethod",
+    "studyCenterType": "https://w3id.org/radx/radmo/studyCenterType",
+    "subjects": "https://w3id.org/radx/radmo/subjects",
+    "keywords": "https://w3id.org/radx/radmo/keywords",
+    "ageGroups": "https://w3id.org/radx/radmo/ageGroups",
+    "races": "https://w3id.org/radx/radmo/races",
+    "ethnicGroups": "https://w3id.org/radx/radmo/ethnicGroups",
+    "sexes": "https://w3id.org/radx/radmo/sexes",
+    "educationLevels": "https://w3id.org/radx/radmo/educationLevels",
+    "employmentStatuses": "https://w3id.org/radx/radmo/employmentStatuses",
+    "insuranceStatuses": "https://w3id.org/radx/radmo/insuranceStatuses",
+    "disabilityStatuses": "https://w3id.org/radx/radmo/disabilityStatuses",
+    "medicalHistories": "https://w3id.org/radx/radmo/medicalHistories",
+    "symptoms": "https://w3id.org/radx/radmo/symptoms",
+    "sampleVariables": "https://w3id.org/radx/radmo/sampleVariables",
+    "csvFileProperties": "https://w3id.org/radx/radmo/csvFileProperties",
+    "contributingOrganizations": "https://w3id.org/radx/radmo/contributingOrganizations",
+    "contributors": "https://w3id.org/radx/radmo/contributors",
+    "dates": "https://w3id.org/radx/radmo/dates",
+    "parentStudies": "https://w3id.org/radx/radmo/parentStudies",
+    "fundingSources": "https://w3id.org/radx/radmo/fundingSources",
+    "dataCharacteristicsTable": "https://w3id.org/radx/radmo/dataCharacteristicsTable",
+    "dataCharacteristicsTableMediaType": "https://w3id.org/radx/radmo/dataCharacteristicsTableMediaType",
+    "additionalMetadata": "https://w3id.org/radx/radmo/additionalMetadata"
+  },
+  "fileName": {
+    "@value": "mete"
+  },
+  "fileSizeInBytes": {
+    "@value": null,
+    "@type": "xsd:long"
+  },
+  "sha256Digest": {
+    "@value": null
+  },
+  "mediaType": {},
+  "titles": [],
+  "version": {
+    "@value": null
+  },
+  "dataDictionaryFileName": {
+    "@value": null
+  },
+  "isHarmonized": {
+    "@value": null
+  },
+  "origcopyFileName": {
+    "@value": null
+  },
+  "transformcopyFileName": {
+    "@value": null
+  },
+  "publicationUrls": [],
+  "relatedDataFiles": [],
+  "sharedVariables": [],
+  "variableNames": [],
+  "dataDescription": {
+    "@value": null
+  },
+  "dataDomain": {
+    "@value": null
+  },
+  "dataCollectionMethod": [],
+  "studyCenterType": {
+    "@value": null
+  },
+  "subjects": [],
+  "keywords": [],
+  "ageGroups": [],
+  "races": [],
+  "ethnicGroups": [],
+  "sexes": [],
+  "educationLevels": [],
+  "employmentStatuses": [],
+  "insuranceStatuses": [],
+  "disabilityStatuses": [],
+  "medicalHistories": [],
+  "symptoms": [],
+  "sampleVariables": [],
+  "csvFileProperties": {
+    "@context": {
+      "characterEncoding": "https://w3id.org/radx/radmo/characterEncoding",
+      "columnDelimiter": "https://w3id.org/radx/radmo/columnDelimiter",
+      "lineTerminator": "https://w3id.org/radx/radmo/lineTerminator",
+      "quoteCharacter": "https://w3id.org/radx/radmo/quoteCharacter",
+      "commentPrefix": "https://w3id.org/radx/radmo/commentPrefix",
+      "trim": "https://w3id.org/radx/radmo/trim",
+      "headerRowCount": "https://w3id.org/radx/radmo/headerRowCount",
+      "headerRowColumnNames": "https://w3id.org/radx/radmo/headerRowColumnNames",
+      "rowCount": "https://w3id.org/radx/radmo/rowCount",
+      "columnCount": "https://w3id.org/radx/radmo/columnCount"
+    },
+    "characterEncoding": {
+      "@value": null
+    },
+    "columnDelimiter": {
+      "@value": null
+    },
+    "lineTerminator": [],
+    "quoteCharacter": {
+      "@value": null
+    },
+    "commentPrefix": {
+      "@value": null
+    },
+    "trim": {
+      "@value": null
+    },
+    "headerRowCount": {
+      "@value": null
+    },
+    "headerRowColumnNames": [],
+    "rowCount": {
+      "@value": null,
+      "@type": "xsd:int"
+    },
+    "columnCount": {
+      "@value": null,
+      "@type": "xsd:int"
+    },
+    "@id": "https://repo.metadatacenter.orgx/template-element-instances/3eca86db-68a8-4c12-80c0-87687b08b8ab"
+  },
+  "contributingOrganizations": [],
+  "contributors": [],
+  "dates": [],
+  "parentStudies": [],
+  "fundingSources": [],
+  "dataCharacteristicsTable": {
+    "@value": null
+  },
+  "dataCharacteristicsTableMediaType": {
+    "@value": null
+  },
+  "additionalMetadata": {
+    "@context": {
+      "additionalCommentary": "https://w3id.org/radx/radmo/additionalCommentary",
+      "Attribute Value Field1": "https://schema.metadatacenter.org/properties/cc3475d6-3c00-44d0-901f-c6621e5db26a"
+    },
+    "additionalKeyValuePairs": [
+      "Attribute Value Field1"
+    ],
+    "additionalCommentary": [
+      {
+        "@value": "Additional comment"
+      }
+    ],
+    "@id": "https://repo.metadatacenter.orgx/template-element-instances/c655b00c-1680-4d58-95d0-69288fdca746",
+    "Attribute Value Field1": {
+      "@value": null
+    }
+  }
+}
