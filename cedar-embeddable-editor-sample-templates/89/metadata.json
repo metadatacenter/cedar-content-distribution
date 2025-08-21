@@ -1,0 +1,58 @@
+{
+  "@context": {
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "pav": "http://purl.org/pav/",
+    "schema": "http://schema.org/",
+    "oslc": "http://open-services.net/ns/core#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rdfs:label": {
+      "@type": "xsd:string"
+    },
+    "schema:isBasedOn": {
+      "@type": "@id"
+    },
+    "schema:name": {
+      "@type": "xsd:string"
+    },
+    "schema:description": {
+      "@type": "xsd:string"
+    },
+    "pav:derivedFrom": {
+      "@type": "@id"
+    },
+    "pav:createdOn": {
+      "@type": "xsd:dateTime"
+    },
+    "pav:createdBy": {
+      "@type": "@id"
+    },
+    "pav:lastUpdatedOn": {
+      "@type": "xsd:dateTime"
+    },
+    "oslc:modifiedBy": {
+      "@type": "@id"
+    },
+    "skos:notation": {
+      "@type": "xsd:string"
+    },
+    "Orcid Field": "https://schema.metadatacenter.orgx/properties/48095553-1174-4acc-9010-91e41e8e6f4f",
+    "Ror Field": "https://schema.metadatacenter.orgx/properties/833aad2c-4108-4270-aa31-4b3cbe653c39"
+  },
+  "Orcid Field": {
+    "@id": "https://orcid.org/0000-0003-3325-793X",
+    "rdfs:label": "Mark A. Musen"
+  },
+  "Ror Field": {
+    "@id": "https://ror.org/00f54p054",
+    "rdfs:label": "Stanford University"
+  },
+  "schema:isBasedOn": "https://repo.metadatacenter.orgx/templates/345123a1-d2d2-4e95-a0bd-b46e5867457b",
+  "schema:name": "Orcid Ror Test metadata",
+  "schema:description": "",
+  "pav:createdOn": "2025-04-14T16:07:08-07:00",
+  "pav:createdBy": "https://metadatacenter.org/users/0e97ec85-77a9-434c-8549-33f9eae22608",
+  "pav:lastUpdatedOn": "2025-04-14T16:07:08-07:00",
+  "oslc:modifiedBy": "https://metadatacenter.org/users/0e97ec85-77a9-434c-8549-33f9eae22608",
+  "@id": "https://repo.metadatacenter.orgx/template-instances/08c1a045-e9d3-4f1f-b037-5cc0634571a3"
+}
