@@ -1,0 +1,288 @@
+{
+  "@id": "https://repo.metadatacenter.org/template-instances/2de4ee0f-188b-47ab-9547-c38233bd5802",
+  "schema:name": "SPbE-2026 time-restricted eating synthetic dataset metadata",
+  "schema:description": "Domain-specific metadata instance describing the SPbE-2026 synthetic participant-level dataset, protocol, and sample-collection SOP.",
+  "Dataset Title": {
+    "@value": "SPbE-2026 participant measurements dataset"
+  },
+  "Protocol Identifier": {
+    "@value": "SPbE-2026"
+  },
+  "Dataset Description": {
+    "@value": "Entirely synthetic participant-level dataset for a 12-week, two-arm randomized pilot study of a 10-hour time-restricted eating window versus habitual eating in 40 adults aged 40–65 years with prediabetes. Variables cover enrollment, demographics, study arm, fasting glucose, HbA1c, BMI, systolic blood pressure, medication, safety, completion, adherence, and persistent identifiers."
+  },
+  "Synthetic Data": {
+    "@value": "Yes"
+  },
+  "License": {
+    "@value": "Openly reusable synthetic data for tooling and education; no real participants or results are represented."
+  },
+  "Study Condition": {
+    "@id": "http://purl.obolibrary.org/obo/MONDO_0006920",
+    "rdfs:label": "prediabetes syndrome"
+  },
+  "Study Design": {
+    "@id": "http://purl.obolibrary.org/obo/OBI_0004001",
+    "rdfs:label": "randomized clinical trial"
+  },
+  "Species": {
+    "@id": "http://purl.bioontology.org/ontology/NCBITAXON/9606",
+    "rdfs:label": "Homo sapiens"
+  },
+  "Intervention Description": {
+    "@value": "Daily 10-hour time-restricted eating window for 12 weeks."
+  },
+  "Comparator Description": {
+    "@value": "Habitual eating schedule maintained for 12 weeks."
+  },
+  "Intervention Duration": {
+    "@value": "12",
+    "@type": "xsd:int"
+  },
+  "Eating Window": {
+    "@value": "10",
+    "@type": "xsd:decimal"
+  },
+  "Participant Count": {
+    "@value": "40",
+    "@type": "xsd:int"
+  },
+  "Minimum Age": {
+    "@value": "40",
+    "@type": "xsd:int"
+  },
+  "Maximum Age": {
+    "@value": "65",
+    "@type": "xsd:int"
+  },
+  "Study Countries": [
+    {
+      "@value": "United States"
+    },
+    {
+      "@value": "Germany"
+    },
+    {
+      "@value": "Spain"
+    },
+    {
+      "@value": "Canada"
+    }
+  ],
+  "Enrollment Start Date": {
+    "@value": "2026-01-07",
+    "@type": "xsd:date"
+  },
+  "Study End Date": {
+    "@value": "2026-05-26",
+    "@type": "xsd:date"
+  },
+  "Specimen Type": {
+    "@id": "http://purl.obolibrary.org/obo/OBI_0100016",
+    "rdfs:label": "blood plasma specimen"
+  },
+  "Outcome Measure": [
+    {
+      "@id": "http://purl.bioontology.org/ontology/SNOMEDCT/167096006",
+      "rdfs:label": "Plasma fasting glucose measurement"
+    },
+    {
+      "@id": "http://purl.bioontology.org/ontology/SNOMEDCT/43396009",
+      "rdfs:label": "Hemoglobin A1c measurement"
+    },
+    {
+      "@id": "http://purl.bioontology.org/ontology/SNOMEDCT/698094009",
+      "rdfs:label": "Measurement of body mass index"
+    },
+    {
+      "@id": "http://purl.bioontology.org/ontology/SNOMEDCT/271649006",
+      "rdfs:label": "Systolic blood pressure"
+    }
+  ],
+  "Dataset Variables": [
+    {
+      "@value": "subject_id"
+    },
+    {
+      "@value": "enrollment_date"
+    },
+    {
+      "@value": "age_years"
+    },
+    {
+      "@value": "sex"
+    },
+    {
+      "@value": "country"
+    },
+    {
+      "@value": "condition"
+    },
+    {
+      "@value": "study_arm"
+    },
+    {
+      "@value": "bmi_kg_m2"
+    },
+    {
+      "@value": "baseline_glucose_mg_dl"
+    },
+    {
+      "@value": "week12_glucose_mg_dl"
+    },
+    {
+      "@value": "hba1c_pct"
+    },
+    {
+      "@value": "systolic_bp_mmhg"
+    },
+    {
+      "@value": "on_glucose_medication"
+    },
+    {
+      "@value": "adverse_event"
+    },
+    {
+      "@value": "completed_study"
+    },
+    {
+      "@value": "visit_date"
+    },
+    {
+      "@value": "adherence_pct"
+    },
+    {
+      "@value": "investigator_orcid"
+    },
+    {
+      "@value": "reference_pmid"
+    },
+    {
+      "@value": "protocol_doi"
+    }
+  ],
+  "Measurement Units": [
+    {
+      "@value": "years"
+    },
+    {
+      "@value": "kg/m²"
+    },
+    {
+      "@value": "mg/dL"
+    },
+    {
+      "@value": "%"
+    },
+    {
+      "@value": "mmHg"
+    }
+  ],
+  "Measurement Timepoints": [
+    {
+      "@value": "Enrollment"
+    },
+    {
+      "@value": "Baseline"
+    },
+    {
+      "@value": "Week 12"
+    }
+  ],
+  "Investigator ORCID": [
+    {
+      "@id": "https://orcid.org/0000-0002-1825-0097",
+      "rdfs:label": "0000-0002-1825-0097"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-5109-3700",
+      "rdfs:label": "0000-0001-5109-3700"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-9876-5432",
+      "rdfs:label": "0000-0002-9876-5432"
+    }
+  ],
+  "Reference PMID": {
+    "@id": "https://pubmed.ncbi.nlm.nih.gov/31813466/",
+    "rdfs:label": "PMID 31813466"
+  },
+  "Protocol DOI": {
+    "@id": "https://doi.org/10.5281/zenodo.0000000",
+    "rdfs:label": "10.5281/zenodo.0000000"
+  },
+  "Source Repository URL": {
+    "@id": "https://github.com/canopy-datahub/canopy-metadata-cofest-2026/tree/main/data/synthetic-study",
+    "rdfs:label": "SPbE-2026 source bundle"
+  },
+  "@context": {
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "pav": "http://purl.org/pav/",
+    "schema": "http://schema.org/",
+    "oslc": "http://open-services.net/ns/core#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "rdfs:label": {
+      "@type": "xsd:string"
+    },
+    "schema:isBasedOn": {
+      "@type": "@id"
+    },
+    "schema:name": {
+      "@type": "xsd:string"
+    },
+    "schema:description": {
+      "@type": "xsd:string"
+    },
+    "pav:derivedFrom": {
+      "@type": "@id"
+    },
+    "pav:createdOn": {
+      "@type": "xsd:dateTime"
+    },
+    "pav:createdBy": {
+      "@type": "@id"
+    },
+    "pav:lastUpdatedOn": {
+      "@type": "xsd:dateTime"
+    },
+    "oslc:modifiedBy": {
+      "@type": "@id"
+    },
+    "skos:notation": {
+      "@type": "xsd:string"
+    },
+    "Dataset Title": "https://schema.metadatacenter.org/properties/Dataset+Title",
+    "Protocol Identifier": "https://schema.metadatacenter.org/properties/Protocol+Identifier",
+    "Dataset Description": "https://schema.metadatacenter.org/properties/Dataset+Description",
+    "Synthetic Data": "https://schema.metadatacenter.org/properties/Synthetic+Data",
+    "License": "https://schema.metadatacenter.org/properties/License",
+    "Study Condition": "https://schema.metadatacenter.org/properties/Study+Condition",
+    "Study Design": "https://schema.metadatacenter.org/properties/Study+Design",
+    "Species": "https://schema.metadatacenter.org/properties/Species",
+    "Intervention Description": "https://schema.metadatacenter.org/properties/Intervention+Description",
+    "Comparator Description": "https://schema.metadatacenter.org/properties/Comparator+Description",
+    "Intervention Duration": "https://schema.metadatacenter.org/properties/Intervention+Duration",
+    "Eating Window": "https://schema.metadatacenter.org/properties/Eating+Window",
+    "Participant Count": "https://schema.metadatacenter.org/properties/Participant+Count",
+    "Minimum Age": "https://schema.metadatacenter.org/properties/Minimum+Age",
+    "Maximum Age": "https://schema.metadatacenter.org/properties/Maximum+Age",
+    "Study Countries": "https://schema.metadatacenter.org/properties/Study+Countries",
+    "Enrollment Start Date": "https://schema.metadatacenter.org/properties/Enrollment+Start+Date",
+    "Study End Date": "https://schema.metadatacenter.org/properties/Study+End+Date",
+    "Specimen Type": "https://schema.metadatacenter.org/properties/Specimen+Type",
+    "Outcome Measure": "https://schema.metadatacenter.org/properties/Outcome+Measure",
+    "Dataset Variables": "https://schema.metadatacenter.org/properties/Dataset+Variables",
+    "Measurement Units": "https://schema.metadatacenter.org/properties/Measurement+Units",
+    "Measurement Timepoints": "https://schema.metadatacenter.org/properties/Measurement+Timepoints",
+    "Investigator ORCID": "https://schema.org/identifier",
+    "Reference PMID": "https://schema.metadatacenter.org/properties/Reference+PMID",
+    "Protocol DOI": "https://schema.metadatacenter.org/properties/Protocol+DOI",
+    "Source Repository URL": "https://schema.metadatacenter.org/properties/Source+Repository+URL"
+  },
+  "schema:isBasedOn": "https://repo.metadatacenter.org/templates/91b4483a-2ab7-4b48-8404-24c98fb2aaab",
+  "pav:createdOn": null,
+  "pav:createdBy": null,
+  "pav:lastUpdatedOn": null,
+  "oslc:modifiedBy": null
+}
