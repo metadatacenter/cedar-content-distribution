@@ -4,14 +4,20 @@
   "publishConfig": {
     "registry": "https://nexus.bmir.stanford.edu/repository/npm-cedar/"
   },
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build"
+  },
   "dependencies": {
-    "@angular/core": "^15.2.4",
-    "@angular/compiler": "^15.2.9"
+    "@angular/compiler": "^22.1.5",
+    "@angular/core": "^22.1.5"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^15.2.4",
-    "@angular/compiler-cli": "^15.2.9",
-    "typescript": "~4.8.3"
+    "@angular/build": "^22.1.7",
+    "@angular/cli": "~22.1.7",
+    "@angular/compiler-cli": "^22.1.5",
+    "typescript": "~6.0.3"
   },
   "allowScripts": {
     "esbuild@0.17.8": true,

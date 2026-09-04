@@ -8,43 +8,40 @@
       "sourceRoot": "src/..",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-angular:browser",
+          "builder": "@angular/build:application",
           "options": {
             "outputPath": "dist/cedar-content-distribution-src",
             "index": "index.html",
-            "main": "src/main.ts",
+            "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
-            "scripts": [],
             "assets": [
-              "src/../cedar-embeddable-editor-sample-templates"
+              {
+                "glob": "**/*",
+                "input": "cedar-embeddable-editor-sample-templates",
+                "output": "cedar-embeddable-editor-sample-templates"
+              }
             ]
           },
           "configurations": {
             "development": {
-              "buildOptimizer": false,
-              "vendorChunk": false,
-              "extractLicenses": false,
-              "sourceMap": false,
-              "namedChunks": false
+              "optimization": false,
+              "sourceMap": false
             },
             "production": {
-              "buildOptimizer": true,
-              "vendorChunk": false,
-              "extractLicenses": false,
-              "sourceMap": false,
-              "namedChunks": false
+              "optimization": true,
+              "sourceMap": false
             }
           },
           "defaultConfiguration": "development"
         },
         "serve": {
-          "builder": "@angular-devkit/build-angular:dev-server",
+          "builder": "@angular/build:dev-server",
           "configurations": {
             "development": {
-              "browserTarget": "cedar-content-distribution:build:development",
+              "buildTarget": "cedar-content-distribution:build:development",
               "port": 4240,
-              "disableHostCheck": true,
-              "host": "0.0.0.0"
+              "host": "0.0.0.0",
+              "allowedHosts": true
             }
           },
           "defaultConfiguration": "development"
