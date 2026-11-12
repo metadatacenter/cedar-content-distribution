@@ -13,14 +13,7 @@
             "outputPath": "dist/cedar-content-distribution-src",
             "index": "index.html",
             "browser": "src/main.ts",
-            "tsConfig": "tsconfig.app.json",
-            "assets": [
-              {
-                "glob": "**/*",
-                "input": "cedar-embeddable-editor-sample-templates",
-                "output": "cedar-embeddable-editor-sample-templates"
-              }
-            ]
+            "tsConfig": "tsconfig.app.json"
           },
           "configurations": {
             "development": {
